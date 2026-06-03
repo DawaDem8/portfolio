@@ -1,0 +1,38 @@
+/* Custom properties to mimic image_9be4df.jpg smoothly */
+body {
+    background-color: #121214 !important;
+}
+
+/* Red-Orange gradient for title text styling */
+.text-gradient {
+    background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Soft card tracking variables */
+.tracking-wide {
+    letter-spacing: 0.1em;
+}
+
+/* Subtle border transitions for cards */
+.card, .bg-dark {
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover, .bg-dark:hover {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Ensure placeholder visibility in customized dark inputs */
+.form-control::placeholder {
+    color: #6c757d;
+}
+
+/* Remove default blue outline on focus */
+.form-control:focus {
+    background-color: #121214 !important;
+    color: #fff !important;
+    border-color: #ef4444 !important;
+    box-shadow: none !important;
+}
